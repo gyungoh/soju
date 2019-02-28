@@ -12,7 +12,7 @@ Make
 ### Setup
 ```
 $ mkdir -p ~/bin && cp soju "$_"
-$ cat > ~/.xsessionrc
+$ cat > ~/.xinputrc
 QT_IM_MODULE=xim
 XMODIFIERS=@im=soju
 GTK_IM_MODULE=xim
