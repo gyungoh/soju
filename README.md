@@ -2,6 +2,7 @@
 Lightweight Korean IME for linux
 
 ### Build
+1. Need packages : libxcb1-dev, libxcb-keysyms1-dev and libxcb-util-dev
 1. Download [xcb-imdkit](https://github.com/wengxt/xcb-imdkit)
 1. Set the path of xcb-imdkit to IMDKIT_PATH
 1. Build
