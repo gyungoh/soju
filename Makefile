@@ -10,7 +10,6 @@ VPATH = $(IMDKIT_PATH)/src
 OBJS = $(SRCS:.c=.o)
 
 CFLAGS += -O3 $(patsubst %,-I%,$(subst :, ,$(VPATH)))
-
 LFLAGS += -lxcb -l:libxcb-keysyms.a -lxcb-util
 
 $(TARGET): $(OBJS)
